@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="歌词会显示在这里" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xxP-gd-zLa" customClass="lrcUILabel">
+                                <rect key="frame" x="20" y="220" width="280" height="21"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="0.11376616379310345" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="fSy-vC-IGa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.30746228448275864" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="目前进度秒会显示在这里" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tUX-eh-z3F" customClass="lrcUILabel">
+                                <rect key="frame" x="20" y="260" width="280" height="21"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="0.1137661638" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="1hz-P3-DXY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.30746228450000002" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w2S-uU-lid">
+                                <rect key="frame" x="20" y="140" width="60" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="1EM-gc-ZDL"/>
+                                    <constraint firstAttribute="height" constant="30" id="uSM-s9-vlV"/>
+                                </constraints>
+                                <state key="normal" title="播放歌曲">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tUT-p6-0SN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jkr-lt-oEL">
+                                <rect key="frame" x="240" y="140" width="60" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="Ody-TQ-XJW"/>
+                                    <constraint firstAttribute="height" constant="30" id="en1-SH-OBt"/>
+                                </constraints>
+                                <state key="normal" title="停止播放">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="stopClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zVk-ws-Yk9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ltp-R0-86h">
+                                <rect key="frame" x="130" y="140" width="60" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="q0j-qN-FGH"/>
+                                    <constraint firstAttribute="width" constant="60" id="xx2-sH-dg4"/>
+                                </constraints>
+                                <state key="normal" title="暂停播放">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pauseClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3cn-zL-1iO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tUX-eh-z3F" firstAttribute="top" secondItem="xxP-gd-zLa" secondAttribute="bottom" constant="19" id="7uM-l1-DwH"/>
+                            <constraint firstItem="ltp-R0-86h" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="120" id="ALU-AH-v3U"/>
+                            <constraint firstItem="jkr-lt-oEL" firstAttribute="trailing" secondItem="xxP-gd-zLa" secondAttribute="trailing" id="KDG-Ph-9fa"/>
+                            <constraint firstItem="jkr-lt-oEL" firstAttribute="leading" secondItem="ltp-R0-86h" secondAttribute="trailing" constant="50" id="M8R-hr-0x2"/>
+                            <constraint firstItem="jkr-lt-oEL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="120" id="STS-Cc-piU"/>
+                            <constraint firstItem="xxP-gd-zLa" firstAttribute="top" secondItem="w2S-uU-lid" secondAttribute="bottom" constant="50" id="TCf-6N-c0T"/>
+                            <constraint firstItem="ltp-R0-86h" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="enn-9X-B92"/>
+                            <constraint firstItem="tUX-eh-z3F" firstAttribute="leading" secondItem="w2S-uU-lid" secondAttribute="leading" id="fs1-NO-g0T"/>
+                            <constraint firstItem="xxP-gd-zLa" firstAttribute="leading" secondItem="w2S-uU-lid" secondAttribute="leading" id="kKY-l8-Vgo"/>
+                            <constraint firstItem="tUX-eh-z3F" firstAttribute="trailing" secondItem="xxP-gd-zLa" secondAttribute="trailing" id="tp8-ne-2po"/>
+                            <constraint firstItem="w2S-uU-lid" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="120" id="wor-9D-Q6b"/>
+                            <constraint firstItem="ltp-R0-86h" firstAttribute="leading" secondItem="w2S-uU-lid" secondAttribute="trailing" constant="50" id="zAj-xS-7sD"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="currentTimeLabel" destination="tUX-eh-z3F" id="g5G-Ig-I7Z"/>
+                        <outlet property="lrcLabel" destination="xxP-gd-zLa" id="jnw-Mv-wF4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="418"/>
+        </scene>
+    </scenes>
+</document>

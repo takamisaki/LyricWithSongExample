@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD0889151D1F98C400877D4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0889141D1F98C400877D4F /* main.m */; };
+		AD0889181D1F98C400877D4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0889171D1F98C400877D4F /* AppDelegate.m */; };
+		AD08891B1D1F98C400877D4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD08891A1D1F98C400877D4F /* ViewController.m */; };
+		AD08891E1D1F98C400877D4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD08891C1D1F98C400877D4F /* Main.storyboard */; };
+		AD0889201D1F98C400877D4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD08891F1D1F98C400877D4F /* Assets.xcassets */; };
+		AD0889231D1F98C400877D4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0889211D1F98C400877D4F /* LaunchScreen.storyboard */; };
+		AD08892E1D1F98C400877D4F /* _________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD08892D1D1F98C400877D4F /* _________Tests.m */; };
+		AD0889391D1F98C400877D4F /* _________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0889381D1F98C400877D4F /* _________UITests.m */; };
+		AD0889491D1F98D400877D4F /* 陈粒 - 正趣果上果.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AD0889471D1F98D400877D4F /* 陈粒 - 正趣果上果.mp3 */; };
+		AD08894C1D1FB12B00877D4F /* lrcUILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD08894B1D1FB12B00877D4F /* lrcUILabel.m */; };
+		AD08898F1D1FD18400877D4F /* 陈粒 - 正趣果上果.lrc in Resources */ = {isa = PBXBuildFile; fileRef = AD08898E1D1FD18400877D4F /* 陈粒 - 正趣果上果.lrc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD08892A1D1F98C400877D4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD0889081D1F98C400877D4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD08890F1D1F98C400877D4F;
+			remoteInfo = "作业显示歌词第二版";
+		};
+		AD0889351D1F98C400877D4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD0889081D1F98C400877D4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD08890F1D1F98C400877D4F;
+			remoteInfo = "作业显示歌词第二版";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD0889101D1F98C400877D4F /* 作业显示歌词第二版.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "作业显示歌词第二版.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0889141D1F98C400877D4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD0889161D1F98C400877D4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD0889171D1F98C400877D4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD0889191D1F98C400877D4F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD08891A1D1F98C400877D4F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD08891D1D1F98C400877D4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD08891F1D1F98C400877D4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD0889221D1F98C400877D4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD0889241D1F98C400877D4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD0889291D1F98C400877D4F /* 作业显示歌词第二版Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "作业显示歌词第二版Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD08892D1D1F98C400877D4F /* _________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________Tests.m"; sourceTree = "<group>"; };
+		AD08892F1D1F98C400877D4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD0889341D1F98C400877D4F /* 作业显示歌词第二版UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "作业显示歌词第二版UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0889381D1F98C400877D4F /* _________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________UITests.m"; sourceTree = "<group>"; };
+		AD08893A1D1F98C400877D4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD0889471D1F98D400877D4F /* 陈粒 - 正趣果上果.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈粒 - 正趣果上果.mp3"; sourceTree = "<group>"; };
+		AD08894A1D1FB12B00877D4F /* lrcUILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lrcUILabel.h; sourceTree = "<group>"; };
+		AD08894B1D1FB12B00877D4F /* lrcUILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lrcUILabel.m; sourceTree = "<group>"; };
+		AD08898E1D1FD18400877D4F /* 陈粒 - 正趣果上果.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "陈粒 - 正趣果上果.lrc"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD08890D1D1F98C400877D4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0889261D1F98C400877D4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0889311D1F98C400877D4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD0889071D1F98C400877D4F = {
+			isa = PBXGroup;
+			children = (
+				AD0889121D1F98C400877D4F /* 作业显示歌词第二版 */,
+				AD08892C1D1F98C400877D4F /* 作业显示歌词第二版Tests */,
+				AD0889371D1F98C400877D4F /* 作业显示歌词第二版UITests */,
+				AD0889111D1F98C400877D4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD0889111D1F98C400877D4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD0889101D1F98C400877D4F /* 作业显示歌词第二版.app */,
+				AD0889291D1F98C400877D4F /* 作业显示歌词第二版Tests.xctest */,
+				AD0889341D1F98C400877D4F /* 作业显示歌词第二版UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD0889121D1F98C400877D4F /* 作业显示歌词第二版 */ = {
+			isa = PBXGroup;
+			children = (
+				AD08894A1D1FB12B00877D4F /* lrcUILabel.h */,
+				AD08894B1D1FB12B00877D4F /* lrcUILabel.m */,
+				AD0889191D1F98C400877D4F /* ViewController.h */,
+				AD08891A1D1F98C400877D4F /* ViewController.m */,
+				AD08891C1D1F98C400877D4F /* Main.storyboard */,
+				AD0889161D1F98C400877D4F /* AppDelegate.h */,
+				AD0889171D1F98C400877D4F /* AppDelegate.m */,
+				AD08891F1D1F98C400877D4F /* Assets.xcassets */,
+				AD0889211D1F98C400877D4F /* LaunchScreen.storyboard */,
+				AD0889241D1F98C400877D4F /* Info.plist */,
+				AD0889131D1F98C400877D4F /* Supporting Files */,
+			);
+			path = "作业显示歌词第二版";
+			sourceTree = "<group>";
+		};
+		AD0889131D1F98C400877D4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD08898E1D1FD18400877D4F /* 陈粒 - 正趣果上果.lrc */,
+				AD0889471D1F98D400877D4F /* 陈粒 - 正趣果上果.mp3 */,
+				AD0889141D1F98C400877D4F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD08892C1D1F98C400877D4F /* 作业显示歌词第二版Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AD08892D1D1F98C400877D4F /* _________Tests.m */,
+				AD08892F1D1F98C400877D4F /* Info.plist */,
+			);
+			path = "作业显示歌词第二版Tests";
+			sourceTree = "<group>";
+		};
+		AD0889371D1F98C400877D4F /* 作业显示歌词第二版UITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD0889381D1F98C400877D4F /* _________UITests.m */,
+				AD08893A1D1F98C400877D4F /* Info.plist */,
+			);
+			path = "作业显示歌词第二版UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD08890F1D1F98C400877D4F /* 作业显示歌词第二版 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD08893D1D1F98C400877D4F /* Build configuration list for PBXNativeTarget "作业显示歌词第二版" */;
+			buildPhases = (
+				AD08890C1D1F98C400877D4F /* Sources */,
+				AD08890D1D1F98C400877D4F /* Frameworks */,
+				AD08890E1D1F98C400877D4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "作业显示歌词第二版";
+			productName = "作业显示歌词第二版";
+			productReference = AD0889101D1F98C400877D4F /* 作业显示歌词第二版.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD0889281D1F98C400877D4F /* 作业显示歌词第二版Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD0889401D1F98C400877D4F /* Build configuration list for PBXNativeTarget "作业显示歌词第二版Tests" */;
+			buildPhases = (
+				AD0889251D1F98C400877D4F /* Sources */,
+				AD0889261D1F98C400877D4F /* Frameworks */,
+				AD0889271D1F98C400877D4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD08892B1D1F98C400877D4F /* PBXTargetDependency */,
+			);
+			name = "作业显示歌词第二版Tests";
+			productName = "作业显示歌词第二版Tests";
+			productReference = AD0889291D1F98C400877D4F /* 作业显示歌词第二版Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD0889331D1F98C400877D4F /* 作业显示歌词第二版UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD0889431D1F98C400877D4F /* Build configuration list for PBXNativeTarget "作业显示歌词第二版UITests" */;
+			buildPhases = (
+				AD0889301D1F98C400877D4F /* Sources */,
+				AD0889311D1F98C400877D4F /* Frameworks */,
+				AD0889321D1F98C400877D4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD0889361D1F98C400877D4F /* PBXTargetDependency */,
+			);
+			name = "作业显示歌词第二版UITests";
+			productName = "作业显示歌词第二版UITests";
+			productReference = AD0889341D1F98C400877D4F /* 作业显示歌词第二版UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD0889081D1F98C400877D4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "刘宁";
+				TargetAttributes = {
+					AD08890F1D1F98C400877D4F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					AD0889281D1F98C400877D4F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = AD08890F1D1F98C400877D4F;
+					};
+					AD0889331D1F98C400877D4F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = AD08890F1D1F98C400877D4F;
+					};
+				};
+			};
+			buildConfigurationList = AD08890B1D1F98C400877D4F /* Build configuration list for PBXProject "作业显示歌词第二版" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD0889071D1F98C400877D4F;
+			productRefGroup = AD0889111D1F98C400877D4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD08890F1D1F98C400877D4F /* 作业显示歌词第二版 */,
+				AD0889281D1F98C400877D4F /* 作业显示歌词第二版Tests */,
+				AD0889331D1F98C400877D4F /* 作业显示歌词第二版UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD08890E1D1F98C400877D4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0889231D1F98C400877D4F /* LaunchScreen.storyboard in Resources */,
+				AD0889491D1F98D400877D4F /* 陈粒 - 正趣果上果.mp3 in Resources */,
+				AD08898F1D1FD18400877D4F /* 陈粒 - 正趣果上果.lrc in Resources */,
+				AD0889201D1F98C400877D4F /* Assets.xcassets in Resources */,
+				AD08891E1D1F98C400877D4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0889271D1F98C400877D4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0889321D1F98C400877D4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD08890C1D1F98C400877D4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD08891B1D1F98C400877D4F /* ViewController.m in Sources */,
+				AD0889181D1F98C400877D4F /* AppDelegate.m in Sources */,
+				AD08894C1D1FB12B00877D4F /* lrcUILabel.m in Sources */,
+				AD0889151D1F98C400877D4F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0889251D1F98C400877D4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD08892E1D1F98C400877D4F /* _________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0889301D1F98C400877D4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0889391D1F98C400877D4F /* _________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD08892B1D1F98C400877D4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD08890F1D1F98C400877D4F /* 作业显示歌词第二版 */;
+			targetProxy = AD08892A1D1F98C400877D4F /* PBXContainerItemProxy */;
+		};
+		AD0889361D1F98C400877D4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD08890F1D1F98C400877D4F /* 作业显示歌词第二版 */;
+			targetProxy = AD0889351D1F98C400877D4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD08891C1D1F98C400877D4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD08891D1D1F98C400877D4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD0889211D1F98C400877D4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD0889221D1F98C400877D4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD08893B1D1F98C400877D4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AD08893C1D1F98C400877D4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD08893E1D1F98C400877D4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "作业显示歌词第二版/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.study.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD08893F1D1F98C400877D4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "作业显示歌词第二版/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.study.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AD0889411D1F98C400877D4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "作业显示歌词第二版Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.study.---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/作业显示歌词第二版.app/作业显示歌词第二版";
+			};
+			name = Debug;
+		};
+		AD0889421D1F98C400877D4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "作业显示歌词第二版Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.study.---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/作业显示歌词第二版.app/作业显示歌词第二版";
+			};
+			name = Release;
+		};
+		AD0889441D1F98C400877D4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "作业显示歌词第二版UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.study.---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "作业显示歌词第二版";
+			};
+			name = Debug;
+		};
+		AD0889451D1F98C400877D4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "作业显示歌词第二版UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.study.---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "作业显示歌词第二版";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD08890B1D1F98C400877D4F /* Build configuration list for PBXProject "作业显示歌词第二版" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD08893B1D1F98C400877D4F /* Debug */,
+				AD08893C1D1F98C400877D4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD08893D1D1F98C400877D4F /* Build configuration list for PBXNativeTarget "作业显示歌词第二版" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD08893E1D1F98C400877D4F /* Debug */,
+				AD08893F1D1F98C400877D4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD0889401D1F98C400877D4F /* Build configuration list for PBXNativeTarget "作业显示歌词第二版Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0889411D1F98C400877D4F /* Debug */,
+				AD0889421D1F98C400877D4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD0889431D1F98C400877D4F /* Build configuration list for PBXNativeTarget "作业显示歌词第二版UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0889441D1F98C400877D4F /* Debug */,
+				AD0889451D1F98C400877D4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD0889081D1F98C400877D4F /* Project object */;
+}
